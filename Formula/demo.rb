@@ -1,4 +1,4 @@
-require_relative "lib/private.rb"
+require_relative "../lib/private.rb"
 class Demo < Formula
   desc "Anqi's homebrew tap"
   homepage ""
