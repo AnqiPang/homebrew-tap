@@ -4,7 +4,7 @@ class Demo < Formula
   homepage "https://github.com/AnqiPang/demo-repo.git"
   url "https://github.com/AnqiPang/demo-repo.git",:using => GitHubPrivateRepositoryDownloadStrategy,
       tag: "demo-0.2.0",
-      revision: "12c659549faf6da67451ccbec1dcbc25bcb65ba7",
+      revision: "12c659549faf6da67451ccbec1dcbc25bcb65ba7"
   license "Apache-2.0"
 
   def install
