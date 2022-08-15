@@ -2,11 +2,10 @@ require_relative "../lib/private.rb"
 class Demo < Formula
   desc "Anqi's homebrew tap"
   homepage ""
-  url "https://github.com/AnqiPang/demo-repo", 
+  url "https://github.com/AnqiPang/demo-repo.git", 
       tag: "demo-0.2.0",
       revision: "12c659549faf6da67451ccbec1dcbc25bcb65ba7",
       :using => GitHubPrivateRepositoryDownloadStrategy
-  sha256 "51704a66a5bac02de7a6c325be04f29e5413b197b666de22865cc2d3ced111d9"
   license "Apache-2.0"
 
   def install
