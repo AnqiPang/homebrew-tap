@@ -8,7 +8,7 @@ class Demo < Formula
       :using => GitHubPrivateRepositoryDownloadStrategy
   sha256 "51704a66a5bac02de7a6c325be04f29e5413b197b666de22865cc2d3ced111d9"
   license "Apache-2.0"
-  version "0.1.0"
+
   def install
     bin.install "src/HelloWorld.go"
     puts "Demo tap installed"
