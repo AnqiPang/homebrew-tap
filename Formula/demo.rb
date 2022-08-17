@@ -3,8 +3,8 @@ class Demo < Formula
   desc "Anqi's homebrew tap"
   homepage "https://github.com/AnqiPang/demo-repo"
   url "https://github.com/AnqiPang/demo-repo.git",
-      tag:      "demo-0.3.9",
-      revision: "6246feb41fb406300bca33ebfa6688d1bd129749"
+      tag:      "demo-0.4.6",
+      revision: "053cd6b1a15cd8eb1457458d604e6f1fab607133"
   license "Apache-2.0"
   depends_on "go" => :build
   def install
