@@ -8,7 +8,8 @@ class Demo < Formula
   license "Apache-2.0"
 
   def install
-    bin.install "src/HelloWorld.go"
+    system "go", "build", "greeter/main.go"
+    bin.install "main"
     puts "Demo tap installed"
   end
 end
