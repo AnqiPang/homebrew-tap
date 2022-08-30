@@ -3,8 +3,8 @@ class Demo < Formula
   desc "Anqi's homebrew tap"
   homepage "https://github.com/AnqiPang/demo-repo"
   url "https://github.com/AnqiPang/demo-repo.git",
-      tag:      "demo-0.4.8",
-      revision: "351a3a00faf864d6f91127d5d13ff8de0bd241eb"
+      tag:      "demo-0.5.1",
+      revision: "90a2e3df39211d4156519e00cfbf331d1c9877e8"
   license "Apache-2.0"
 
   bottle do
