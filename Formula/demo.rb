@@ -3,14 +3,14 @@ class Demo < Formula
   desc "Anqi's homebrew tap"
   homepage "https://github.com/AnqiPang/demo-repo"
   url "https://github.com/AnqiPang/demo-repo.git",
-      tag:      "demo-0.5.3",
-      revision: "8e6e9f52d55cb8c6ccdd76c77f29b1fc403011cf"
+      tag:      "demo-0.5.6",
+      revision: "a6da8c08976f3fbfc0689c659655609a08632fae"
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/AnqiPang/demo-repo/releases/download/demo-0.5.3"
-    sha256 cellar: :any_skip_relocation, arm64_monterey: "15e9b6c4e5f940c86e0eb1b01ceb7b8dea341b019cba7d7dcec17892a83ad1a4"
-    sha256 cellar: :any_skip_relocation, big_sur:        "0ec6c05472482c48bb4ba828c230db27cd0ffd5ae826072803e8fc4ec63049b1"
+    root_url "https://github.com/AnqiPang/demo-repo/releases/download/demo-0.5.6"
+    sha256 cellar: :any_skip_relocation, arm64_monterey: "f78296e0cfb0f18f4a3812972e2956d8324b12ba7c4f86aced973e425e44fc2a"
+    sha256 cellar: :any_skip_relocation, big_sur:        "4434f6751455cbc60287df4b8bd1e8938cc23a66841fbecae41354925f70cabf"
   end
   depends_on "go" => :build
   def install
