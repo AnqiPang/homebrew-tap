@@ -8,9 +8,9 @@ class Demo < Formula
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/AnqiPang/demo-repo/releases/download/demo-0.4.8"
-    sha256 cellar: :any_skip_relocation, arm64_monterey: "9c4d64c46a0c3624c41afb073f045ef2d0ed210264f473bc7066155928eced05"
-    sha256 cellar: :any_skip_relocation, big_sur:        "325faca78379e3ddabaccac4342528b2aa3656bb6f13e92d5d4c3cf48bf85971"
+    root_url "https://github.com/AnqiPang/demo-repo/releases/download/demo-0.5.3"
+    sha256 cellar: :any_skip_relocation, arm64_monterey: "15e9b6c4e5f940c86e0eb1b01ceb7b8dea341b019cba7d7dcec17892a83ad1a4"
+    sha256 cellar: :any_skip_relocation, big_sur:        "0ec6c05472482c48bb4ba828c230db27cd0ffd5ae826072803e8fc4ec63049b1"
   end
   depends_on "go" => :build
   def install
