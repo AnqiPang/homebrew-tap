@@ -17,5 +17,6 @@ class Demo < Formula
     system "go", "build", "greeter/main.go"
     bin.install "main"
     puts "Demo tap installed test branch"
+    puts "push to locked main"
   end
 end
