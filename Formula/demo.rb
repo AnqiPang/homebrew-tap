@@ -16,6 +16,6 @@ class Demo < Formula
   def install
     system "go", "build", "greeter/main.go"
     bin.install "main"
-    puts "Demo tap installed not allow bypass"
+    puts "Demo tap installed test branch"
   end
 end
