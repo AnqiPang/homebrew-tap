@@ -16,6 +16,6 @@ class Demo < Formula
   def install
     system "go", "build", "greeter/main.go"
     bin.install "main"
-    puts "Demo tap installed"
+    puts "Demo tap installed halo"
   end
 end
