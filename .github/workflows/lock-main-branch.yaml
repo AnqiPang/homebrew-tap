@@ -1,0 +1,12 @@
+name: Lock and unlock main branch
+on: workflow_dispatch
+
+jobs:
+  get-branch-protection:
+    runs-on: ubuntu-latest
+    steps:
+      - name: get branch protection with GitHub API
+        run: |
+          gh api \
+            -H "Accept: application/vnd.github+json" \
+            /repos/AnqiPang/homebrew-tap/branches/main/protection
