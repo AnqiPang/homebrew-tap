@@ -10,3 +10,5 @@ jobs:
           gh api \
             -H "Accept: application/vnd.github+json" \
             /repos/AnqiPang/homebrew-tap/branches/main/protection
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
